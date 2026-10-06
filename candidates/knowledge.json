@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "role": "knowledge",
+  "roots": ["00. Inbox", "10. Raw Sources", "20. Wiki", "30. Queries", "40. Paper Analyses", "80. References", "90. Settings"],
+  "folders": [
+    "00. Inbox", "00. Inbox/04 GJC",
+    "10. Raw Sources", "10. Raw Sources/01 Articles", "10. Raw Sources/02 Videos", "10. Raw Sources/03 Books", "10. Raw Sources/04 Papers", "10. Raw Sources/05 Repositories", "10. Raw Sources/06 Conversations", "10. Raw Sources/07 Mail", "10. Raw Sources/08 KakaoTalk", "10. Raw Sources/09 Clippings",
+    "20. Wiki", "20. Wiki/01 Concepts", "20. Wiki/02 Entities", "20. Wiki/03 Guides", "20. Wiki/04 Maps", "20. Wiki/05 Questions", "20. Wiki/06 Personas",
+    "30. Queries", "40. Paper Analyses", "80. References", "80. References/01 Book", "80. References/02 Paper", "80. References/02 Paper/zt-import", "80. References/_attachments",
+    "90. Settings", "90. Settings/01 Guideline", "90. Settings/02 Templates", "90. Settings/02 Templates/manual", "90. Settings/02 Templates/agent", "90. Settings/02 Templates/zotero", "90. Settings/03 Home", "90. Settings/04 Index", "90. Settings/05 Bases", "90. Settings/07 Excalidraw", "90. Settings/07 Excalidraw/Libraries", "90. Settings/07 Excalidraw/Scripts"
+  ],
+  "files": [
+    {"source": "candidates/common/AGENTS.md", "path": "AGENTS.md"},
+    {"source": "candidates/common/Me.md", "path": "Me.md"},
+    {"source": "candidates/common/Start Here.md", "path": "README.md"},
+    {"source": "candidates/common/Start Here.md", "path": "90. Settings/03 Home/Home.md"},
+    {"source": "candidates/common/rules.md", "path": "90. Settings/01 Guideline/00 Common Rules.md"},
+    {"source": "candidates/knowledge/placement.md", "path": "90. Settings/01 Guideline/01 Role Placement.md"},
+    {"source": "candidates/common/Native Usage.md", "path": "90. Settings/01 Guideline/02 Native Usage.md"},
+    {"source": "candidates/common/source.template.md", "path": "90. Settings/02 Templates/manual/source.template.md"},
+    {"source": "candidates/fixtures/preservation.json", "path": "90. Settings/04 Index/onboard-expectations.json"}
+  ]
+}

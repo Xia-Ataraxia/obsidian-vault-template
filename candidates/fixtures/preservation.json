@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "description": "Fabricated test inputs, not original evidence or an implemented onboarding result.",
+  "fresh_vault": {
+    "counterpart": null,
+    "expected": "Each role exports independently; the separately owned skills implementation must provide real onboarding from the reviewed candidate hash."
+  },
+  "existing_vault": {
+    "mode": "additive-only",
+    "candidate_export_expected": "Refuse any existing destination without changing any byte, name, link or attachment.",
+    "implementation_behavior_pending": true,
+    "approval_required": "Before any live setting/template change, enumerate exact paths, original bytes or absence, hashes, proposed diffs, preservation and recovery expectations; role choice is not effect approval.",
+    "files": {
+      "Me.md": "---\ncreated_by: user\nauthorship: user\ntype: note\n---\n# Synthetic owner worksheet\nDo not replace my context.\n",
+      "00. Inbox/04 GJC/Synthetic existing report.md": "---\ncreated_by: agent\nauthorship: mixed\ntype: note\n---\nSynthetic report with a later human edit; retain verbatim.\n",
+      "00. Inbox/Synthetic legacy.md": "# Synthetic missing provenance\nMissing metadata is protected, not inferred.\n",
+      "10. Time/01 Daily Notes/2000-01-01.md": "---\ntype: log\ncreated_by: user\nauthorship: user\n---\n## Thinking\nSynthetic private meaning remains personal.\n",
+      "15. Work/02 Area/Saint/02 QT/Synthetic reflection.md": "---\ntype: note\ncreated_by: user\nauthorship: mixed\n---\nSynthetic personal faith reflection remains here.\n",
+      "30. Literature Notes/02 Reviews/Synthetic mixed paper note.md": "---\ntype: review\ncreated_by: user\nauthorship: mixed\n---\nPersonal judgment and source notes are not forcibly split.\n![[80. References/_attachments/synthetic.svg]]\n",
+      "50. AI/Synthetic legacy meaning.md": "---\ntype: note\ncreated_by: agent\nauthorship: agent\n---\nSynthetic agent-assisted personal decision; no automatic migration.\n",
+      "60. Saint/Synthetic legacy reflection.md": "Synthetic legacy fixture; live moves require a separately approved exact manifest.\n",
+      "85. Raw/16 KakaoTalk/Synthetic original.md": "---\ntype: chat\ncreated_by: user\nauthorship: user\nsummary_only: false\ntranscript_included: true\n---\n## Original Content\n[synthetic] Person A: retain this exact backup text.\nNo automatic task or synthesis.\n",
+      "80. References/_attachments/synthetic.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><rect width=\"16\" height=\"16\" fill=\"gray\"/></svg>\n",
+      "90. Settings/05 Bases/Synthetic.base": "filters:\n  and:\n    - 'type == \"note\"'\nviews:\n  - type: table\n    name: Synthetic\n",
+      ".obsidian/app.json": "{\"attachmentFolderPath\":\"80. References/_attachments\",\"synthetic_user_setting\":true}\n",
+      ".obsidian/workspace.json": "{\"synthetic_user_workspace\":true}\n",
+      ".git/config": "[synthetic]\n\tpreserve = true\n",
+      ".machine-ledger/synthetic.json": "{\"synthetic_recovery_record\":true}\n",
+      "20. Wiki/01 Concepts/Synthetic existing concept.md": "---\ntype: terminology\ncreated_by: user\nauthorship: mixed\nsource_url: https://example.invalid/synthetic/article\n---\nA synthetic existing source-grounded concept.\n",
+      "40. Paper Analyses/Synthetic analysis.md": "---\ntype: paper\ncreated_by: agent\nauthorship: agent\nsource_url: https://example.invalid/synthetic/paper\nuser_intent_interview: \"Synthetic use context for a teaching comparison.\"\n---\n## Analysis\nThis is fabricated source-analysis input, not paper evidence.\n"
+    },
+    "symlinks": [{"path": "80. References/_attachments/synthetic-link.svg", "target": "synthetic.svg", "expected": "retain link, never follow it during export"}],
+    "implementation_cases": [
+      "fresh personal alone", "fresh knowledge alone", "rerun and resume the same actual implementation",
+      "existing-vault exact allowlist preview and approved additive application",
+      "role/setting/path conflict fails without replacement",
+      "protected files, missing provenance, human edits, originals and attachments unchanged outside approved diff",
+      "no automatically paired notes, counterpart lookup, session report or full-session backup"
+    ]
+  },
+  "source_metadata": {
+    "source_url": "https://example.invalid/synthetic/article",
+    "user_intent_interview": "Synthetic purpose: compare \"quoted\" values and C:\\synthetic\\file.\nUse only this selected excerpt.",
+    "created_by": "agent",
+    "authorship": "agent",
+    "body": "## Original Content\n[synthetic] Selected fixture text, not original evidence.\n\n## Analysis\nFabricated interpretation only.\n"
+  },
+  "provenance_conflict": {
+    "created_by": "[[claude]]",
+    "expected": "Conflict requiring review; never a valid new provenance value or silently normalized."
+  }
+}

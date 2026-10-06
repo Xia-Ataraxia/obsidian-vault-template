@@ -10,7 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Verify canonical folder structure
         # --strict also proves the declaration never drifts from the tracked tree,
         # which is what adopting vaults enforce against.
         run: python3 scripts/verify_structure.py --strict
+      - name: Verify standalone static candidates and export boundaries
+        run: python3 scripts/test_candidates.py
+      - name: Verify source-template intent and whole-scalar serialization
+        run: node scripts/test_source_template.js
