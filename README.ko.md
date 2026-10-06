@@ -91,13 +91,33 @@ authorship: agent
 
 ## 시작하기
 
+### 독립 역할의 로컬 후보
+
+아래 12-root 원본은 그대로 유지합니다. `candidates/personal.json`과 `candidates/knowledge.json`은 개인정보를 걸러 낸 별도의 **로컬 후보**이며 공개 release나 기존 볼트 설치기가 아닙니다. 개인 후보는 Saint를 Work/Area에 둔 책임별 루트 10개, 지식 후보는 출처 기반 Wiki·Queries·Paper Analyses를 포함한 루트 7개입니다. 어느 쪽도 상대 볼트를 요구하지 않습니다.
+
+볼트·이력·`.obsidian` 전체를 복제하지 않고 명시적 파일 allowlist로 공개 자산을 재사용합니다.
+
+```sh
+mkdir -p .gjc/candidate-builds
+python3 scripts/export_candidates.py --role personal --output .gjc/candidate-builds/personal
+python3 scripts/export_candidates.py --role knowledge --output .gjc/candidate-builds/knowledge
+python3 scripts/test_candidates.py
+node scripts/test_source_template.js
+```
+
+재실행에서도 출력 경로는 존재하지 않아야 합니다. exporter는 기존 디렉터리를 거부하고 볼트를 병합하지 않습니다. 생성 후 실패는 미검증 불완전 패키지를 보존했다고 명시합니다. 이를 확인한 뒤 새 부재 경로에서 재시도하며 덮어쓰지 않습니다. 정확한 정규형 `candidate-manifest.json`은 파일명·바이트·폴더·선택한 숨김 자산을 묶으며 독립 privacy 검토는 그 정확한 해시를 지정해야 합니다. 공개 원본의 예제·이력은 제외하되 재작성하지 않습니다. 단독 수동 사용은 각 출력의 `README.md`와 역할 규칙을 읽으십시오. 템플릿 테스트는 Node.js 22+가 필요하며 CI에서도 실행합니다.
+
+`candidates/fixtures/preservation.json`은 명시적 synthetic 기존 볼트 입력과 additive 보존 예상이지 실제 onboarding 증명이 아닙니다. 재사용 가능한 `onboard` 구현과 첫 ingest/query 완결 흐름은 별도 스킬 소유 작업의 책임입니다. 런타임 설치·Sync·배포·공개 완료를 주장하지 않습니다.
+
+### 기존 12-root 원본
+
 1. **ZIP 받기 (Git 불필요)**
 
    GitHub 저장소 페이지에서 **Code → Download ZIP**을 선택합니다. 압축을 풉니다. Obsidian에서 **Open folder as vault**를 고르고, `.obsidian`과 번호 매긴 루트가 들어 있는 압축 해제 폴더를 선택합니다.
 
    **새** 볼트로 여십시오. 이미 있는 볼트에 이 파일들을 합치지 마십시오.
 
-   숨김 폴더 `.obsidian`은 그대로 두십시오. 숨김 파일을 표시해 확인하고, 누락되었다면 점(.)으로 시작하는 폴더를 보존하는 도구로 ZIP을 다시 푸십시오. 그 폴더는 휴대용 설정이며 플러그인 바이너리가 아닙니다.
+   숨김 폴더 `.obsidian`은 그대로 두십시오. 숨김 파일을 표시해 확인하고, 누락되었다면 점(.)으로 시작하는 폴더를 보존하는 도구로 ZIP을 다시 푸십시오. 휴대용 설정과 명시적으로 제공하는 커뮤니티 플러그인 6개의 바이너리가 들어 있습니다.
 
 2. **선택: Git으로 클론**
 

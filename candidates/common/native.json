@@ -1,0 +1,408 @@
+{
+  "files": [
+    {
+      "source": ".obsidian/plugins/templater-obsidian/main.js",
+      "path": ".obsidian/plugins/templater-obsidian/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/templater-obsidian/manifest.json",
+      "path": ".obsidian/plugins/templater-obsidian/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/templater-obsidian/styles.css",
+      "path": ".obsidian/plugins/templater-obsidian/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/homepage/main.js",
+      "path": ".obsidian/plugins/homepage/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/homepage/manifest.json",
+      "path": ".obsidian/plugins/homepage/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/homepage/styles.css",
+      "path": ".obsidian/plugins/homepage/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/omnisearch/main.js",
+      "path": ".obsidian/plugins/omnisearch/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/omnisearch/manifest.json",
+      "path": ".obsidian/plugins/omnisearch/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/omnisearch/styles.css",
+      "path": ".obsidian/plugins/omnisearch/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-outliner/main.js",
+      "path": ".obsidian/plugins/obsidian-outliner/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-outliner/manifest.json",
+      "path": ".obsidian/plugins/obsidian-outliner/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-outliner/styles.css",
+      "path": ".obsidian/plugins/obsidian-outliner/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-linter/main.js",
+      "path": ".obsidian/plugins/obsidian-linter/main.js",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-linter/manifest.json",
+      "path": ".obsidian/plugins/obsidian-linter/manifest.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/plugins/obsidian-linter/styles.css",
+      "path": ".obsidian/plugins/obsidian-linter/styles.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/snippets/fix-nested-bullets.css",
+      "path": ".obsidian/snippets/fix-nested-bullets.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/snippets/mermaid-wide.css",
+      "path": ".obsidian/snippets/mermaid-wide.css",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/core-plugins.json",
+      "path": ".obsidian/core-plugins.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": ".obsidian/community-plugins.json",
+      "path": ".obsidian/community-plugins.json",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Daily Note.template.md",
+      "path": "90. Settings/02 Templates/auto/Daily Note.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Weekly Notes.template.md",
+      "path": "90. Settings/02 Templates/auto/Weekly Notes.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Monthly Notes.template.md",
+      "path": "90. Settings/02 Templates/auto/Monthly Notes.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Quarterly Notes.template.md",
+      "path": "90. Settings/02 Templates/auto/Quarterly Notes.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Yearly Note.template.md",
+      "path": "90. Settings/02 Templates/auto/Yearly Note.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/auto/Dashboard.template.md",
+      "path": "90. Settings/02 Templates/auto/Dashboard.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/note.template.md",
+      "path": "90. Settings/02 Templates/manual/note.template.md",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/book.template.md",
+      "path": "90. Settings/02 Templates/manual/book.template.md",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/guideline.template.md",
+      "path": "90. Settings/02 Templates/manual/guideline.template.md",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/task.template.md",
+      "path": "90. Settings/02 Templates/manual/task.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/project.template.md",
+      "path": "90. Settings/02 Templates/manual/project.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/log.template.md",
+      "path": "90. Settings/02 Templates/manual/log.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/02 Templates/manual/video.template.md",
+      "path": "90. Settings/02 Templates/manual/video.template.md",
+      "roles": ["personal"]
+    },
+    {
+      "source": "90. Settings/05 Bases/Books.base",
+      "path": "90. Settings/05 Bases/Books.base",
+      "roles": ["personal", "knowledge"]
+    },
+    {
+      "source": "90. Settings/05 Bases/Video.base",
+      "path": "90. Settings/05 Bases/Video.base",
+      "roles": ["personal"]
+    }
+  ],
+  "settings": {
+    "personal": {
+      ".obsidian/app.json": {
+        "attachmentFolderPath": "80. References/_attachments",
+        "newFileLocation": "folder",
+        "newFileFolderPath": "00. Inbox",
+        "newLinkFormat": "shortest",
+        "alwaysUpdateLinks": true,
+        "promptDelete": true,
+        "trashOption": "system",
+        "userIgnoreFilters": [".trash"],
+        "showUnsupportedFiles": true,
+        "fileSortOrder": "alphabetical",
+        "defaultViewMode": "preview",
+        "livePreview": true,
+        "readableLineLength": true,
+        "showInlineTitle": true,
+        "showLineNumber": true,
+        "showIndentGuide": true,
+        "foldHeading": true,
+        "foldIndent": true,
+        "useTab": true,
+        "tabSize": 4,
+        "strictLineBreaks": false,
+        "showFrontmatter": false,
+        "propertiesInDocument": "visible",
+        "spellcheck": false,
+        "vimMode": false
+      },
+      ".obsidian/daily-notes.json": {
+        "folder": "10. Time/01 Daily Notes",
+        "format": "YYYY-MM-DD",
+        "autorun": false
+      },
+      ".obsidian/plugins/templater-obsidian/data.json": {
+        "data_version": 2,
+        "command_timeout": 5,
+        "templates_folder": "90. Settings/02 Templates",
+        "templates_pairs": [],
+        "trigger_on_file_creation_mode": "folder",
+        "folder_templates": [
+          {
+            "folder": "10. Time/01 Daily Notes",
+            "template": "90. Settings/02 Templates/auto/Daily Note.template.md"
+          },
+          {
+            "folder": "10. Time/02 Weekly Notes",
+            "template": "90. Settings/02 Templates/auto/Weekly Notes.template.md"
+          },
+          {
+            "folder": "10. Time/03 Monthly Notes",
+            "template": "90. Settings/02 Templates/auto/Monthly Notes.template.md"
+          },
+          {
+            "folder": "10. Time/05 Quarterly Notes",
+            "template": "90. Settings/02 Templates/auto/Quarterly Notes.template.md"
+          },
+          {
+            "folder": "10. Time/04 Yearly Notes",
+            "template": "90. Settings/02 Templates/auto/Yearly Note.template.md"
+          }
+        ],
+        "file_templates": [],
+        "startup_templates": [],
+        "enabled_templates_hotkeys": [],
+        "ignore_folders_on_creation": [],
+        "user_scripts_folder": "",
+        "shell_path": "",
+        "auto_jump_to_cursor": false,
+        "syntax_highlighting": true
+      },
+      ".obsidian/plugins/homepage/data.json": {
+        "version": 4,
+        "homepages": {
+          "Main Homepage": {
+            "value": "90. Settings/03 Home/Home.md",
+            "kind": "File",
+            "openOnStartup": true,
+            "openMode": "Replace all open notes",
+            "manualOpenMode": "Keep open notes",
+            "view": "Default view",
+            "revertView": true,
+            "openWhenEmpty": false,
+            "refreshDataview": false,
+            "autoCreate": false,
+            "autoScroll": false,
+            "pin": false,
+            "commands": [],
+            "alwaysApply": false,
+            "hideReleaseNotes": false
+          }
+        },
+        "separateMobile": false
+      },
+      ".obsidian/plugins/obsidian-excalidraw-plugin/data.json": {
+        "folder": "90. Settings/07 Excalidraw",
+        "libraryFolderPath": "90. Settings/07 Excalidraw/Libraries",
+        "libraryFileName": "local-library",
+        "libraryStorageMode": "vault",
+        "scriptFolderPath": "90. Settings/07 Excalidraw/Scripts",
+        "fontAssetsPath": "90. Settings/07 Excalidraw/CJK Fonts",
+        "templateFilePath": "",
+        "cropFolder": "",
+        "annotateFolder": "",
+        "embedUseExcalidrawFolder": false,
+        "useExcalidrawExtension": true,
+        "compatibilityMode": false,
+        "compress": true,
+        "allowJavaScriptFiles": false,
+        "storeScriptFilesAsJavaScript": false,
+        "enableOnloadScripts": false,
+        "enableCommandLinks": false,
+        "oEmbedAllowed": false,
+        "allowImageCache": true,
+        "autosaveIntervalDesktop": 60000,
+        "autosaveIntervalMobile": 30000,
+        "drawingFilenamePrefix": "Drawing ",
+        "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss"
+      }
+    },
+    "knowledge": {
+      ".obsidian/app.json": {
+        "attachmentFolderPath": "80. References/_attachments",
+        "newFileLocation": "folder",
+        "newFileFolderPath": "00. Inbox",
+        "newLinkFormat": "shortest",
+        "alwaysUpdateLinks": true,
+        "promptDelete": true,
+        "trashOption": "system",
+        "userIgnoreFilters": [".trash"],
+        "showUnsupportedFiles": true,
+        "fileSortOrder": "alphabetical",
+        "defaultViewMode": "preview",
+        "livePreview": true,
+        "readableLineLength": true,
+        "showInlineTitle": true,
+        "showLineNumber": true,
+        "showIndentGuide": true,
+        "foldHeading": true,
+        "foldIndent": true,
+        "useTab": true,
+        "tabSize": 4,
+        "strictLineBreaks": false,
+        "showFrontmatter": false,
+        "propertiesInDocument": "visible",
+        "spellcheck": false,
+        "vimMode": false
+      },
+      ".obsidian/daily-notes.json": {
+        "folder": "00. Inbox",
+        "format": "YYYY-MM-DD",
+        "autorun": false
+      },
+      ".obsidian/plugins/templater-obsidian/data.json": {
+        "data_version": 2,
+        "command_timeout": 5,
+        "templates_folder": "90. Settings/02 Templates",
+        "templates_pairs": [],
+        "trigger_on_file_creation_mode": "none",
+        "folder_templates": [],
+        "file_templates": [],
+        "startup_templates": [],
+        "enabled_templates_hotkeys": [],
+        "ignore_folders_on_creation": [],
+        "user_scripts_folder": "",
+        "shell_path": "",
+        "auto_jump_to_cursor": false,
+        "syntax_highlighting": true
+      },
+      ".obsidian/plugins/homepage/data.json": {
+        "version": 4,
+        "homepages": {
+          "Main Homepage": {
+            "value": "90. Settings/03 Home/Home.md",
+            "kind": "File",
+            "openOnStartup": true,
+            "openMode": "Replace all open notes",
+            "manualOpenMode": "Keep open notes",
+            "view": "Default view",
+            "revertView": true,
+            "openWhenEmpty": false,
+            "refreshDataview": false,
+            "autoCreate": false,
+            "autoScroll": false,
+            "pin": false,
+            "commands": [],
+            "alwaysApply": false,
+            "hideReleaseNotes": false
+          }
+        },
+        "separateMobile": false
+      },
+      ".obsidian/plugins/obsidian-excalidraw-plugin/data.json": {
+        "folder": "90. Settings/07 Excalidraw",
+        "libraryFolderPath": "90. Settings/07 Excalidraw/Libraries",
+        "libraryFileName": "local-library",
+        "libraryStorageMode": "vault",
+        "scriptFolderPath": "90. Settings/07 Excalidraw/Scripts",
+        "fontAssetsPath": "90. Settings/07 Excalidraw/CJK Fonts",
+        "templateFilePath": "",
+        "cropFolder": "",
+        "annotateFolder": "",
+        "embedUseExcalidrawFolder": false,
+        "useExcalidrawExtension": true,
+        "compatibilityMode": false,
+        "compress": true,
+        "allowJavaScriptFiles": false,
+        "storeScriptFilesAsJavaScript": false,
+        "enableOnloadScripts": false,
+        "enableCommandLinks": false,
+        "oEmbedAllowed": false,
+        "allowImageCache": true,
+        "autosaveIntervalDesktop": 60000,
+        "autosaveIntervalMobile": 30000,
+        "drawingFilenamePrefix": "Drawing ",
+        "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss"
+      }
+    }
+  }
+}

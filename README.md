@@ -86,13 +86,33 @@ Task notes use `manual/task.template.md` fields `type`, `done`, `gtd`, `project`
 
 ## Quick start
 
+### Local independent role candidates
+
+The twelve-root source below is unchanged. `candidates/personal.json` and `candidates/knowledge.json` define separate, privacy-filtered **local candidates**, not a published release or an existing-vault installer. Personal keeps ten responsibility roots with Saint under Work/Area; knowledge keeps seven roots with source-grounded Wiki, Queries and Paper Analyses. Neither requires the other.
+
+Reuse the public assets through the explicit file allowlists, without copying a vault, history or whole `.obsidian` directory:
+
+```sh
+mkdir -p .gjc/candidate-builds
+python3 scripts/export_candidates.py --role personal --output .gjc/candidate-builds/personal
+python3 scripts/export_candidates.py --role knowledge --output .gjc/candidate-builds/knowledge
+python3 scripts/test_candidates.py
+node scripts/test_source_template.js
+```
+
+Each output must be absent, even on rerun. The exporter refuses existing directories and never merges a vault. A post-create failure explicitly retains an incomplete, unverified package; inspect it and retry at a new absent output path, never overwrite it. Its exact canonical `candidate-manifest.json` binds filenames, bytes, folders and selected hidden assets; independent privacy review must name that exact hash. Public source examples/history are excluded, not rewritten. Read each output's `README.md` and role rules for standalone manual use. The template test requires Node.js 22+ and runs in CI.
+
+Synthetic existing-vault preservation inputs live in `candidates/fixtures/preservation.json`. They specify additive expectations; they do not prove real onboarding. The reusable `onboard` implementation and first complete ingest/query slice belong to the separately owned skills work. No runtime installation, Sync, deployment or publication is established here.
+
+### Original twelve-root source
+
 1. **Download ZIP (no Git required)**
 
    On the GitHub repository page, choose **Code → Download ZIP**. Extract the archive. In Obsidian, choose **Open folder as vault** and select the extracted folder that contains `.obsidian` and the numbered roots.
 
    Open it as a **new** vault. Do not merge these files into an existing vault.
 
-   Keep the hidden `.obsidian` folder. Show hidden files to check it; if it was omitted, extract the ZIP again with a tool that retains dotfolders. That folder is portable settings, not plugin binaries.
+   Keep the hidden `.obsidian` folder. Show hidden files to check it; if it was omitted, extract the ZIP again with a tool that retains dotfolders. It contains portable settings and the six explicitly shipped community-plugin binaries.
 
 2. **Optional: clone with Git**
 

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "role": "personal",
+  "roots": ["00. Inbox", "10. Time", "15. Work", "25. Digital Garden", "30. Literature Notes", "40. Permanent Notes", "70. Collections", "80. References", "85. Raw", "90. Settings"],
+  "folders": [
+    "00. Inbox", "00. Inbox/01 Chat", "00. Inbox/01 Chat/chatgpt", "00. Inbox/01 Chat/gemini", "00. Inbox/01 Chat/grok", "00. Inbox/02 Claude Code", "00. Inbox/03 Codex", "00. Inbox/04 GJC", "00. Inbox/05 Aside", "00. Inbox/08 Unlisted", "00. Inbox/09 Legacy",
+    "10. Time", "10. Time/01 Daily Notes", "10. Time/02 Weekly Notes", "10. Time/03 Monthly Notes", "10. Time/04 Yearly Notes", "10. Time/05 Quarterly Notes", "10. Time/06 Dashboard",
+    "15. Work", "15. Work/01 Project", "15. Work/02 Area", "15. Work/02 Area/Saint", "15. Work/02 Area/Saint/01 Sermon", "15. Work/02 Area/Saint/02 QT", "15. Work/02 Area/Saint/03 Pray", "15. Work/02 Area/Saint/04 Bible", "15. Work/02 Area/Saint/05 Worship", "15. Work/03 Archive", "15. Work/04 Tasks",
+    "25. Digital Garden", "30. Literature Notes", "30. Literature Notes/01 Researches", "30. Literature Notes/02 Reviews", "30. Literature Notes/03 Meetings", "40. Permanent Notes",
+    "70. Collections", "70. Collections/01 People", "70. Collections/02 Prompt", "70. Collections/03 MoC", "70. Collections/04 Music", "70. Collections/05 Places", "70. Collections/07 Organization", "70. Collections/08 Github", "70. Collections/09 Channel", "70. Collections/10 Flowers",
+    "80. References", "80. References/01 Book", "80. References/02 Paper", "80. References/02 Paper/zt-import", "80. References/06 Eagle", "80. References/_attachments",
+    "85. Raw", "85. Raw/01 Articles", "85. Raw/02 Videos", "85. Raw/03 Clippings", "85. Raw/03 Github", "85. Raw/04 Threads", "85. Raw/05 Newsletters", "85. Raw/06 YouTube", "85. Raw/07 X", "85. Raw/15 Mail", "85. Raw/16 KakaoTalk",
+    "90. Settings", "90. Settings/01 Guideline", "90. Settings/02 Templates", "90. Settings/02 Templates/manual", "90. Settings/02 Templates/auto", "90. Settings/02 Templates/agent", "90. Settings/02 Templates/zotero", "90. Settings/02 Templates/obsidian web clipper", "90. Settings/03 Home", "90. Settings/04 Index", "90. Settings/05 Bases", "90. Settings/07 Excalidraw", "90. Settings/07 Excalidraw/Libraries", "90. Settings/07 Excalidraw/Scripts"
+  ],
+  "files": [
+    {"source": "candidates/common/AGENTS.md", "path": "AGENTS.md"},
+    {"source": "candidates/common/Me.md", "path": "Me.md"},
+    {"source": "candidates/common/Start Here.md", "path": "README.md"},
+    {"source": "candidates/common/Start Here.md", "path": "90. Settings/03 Home/Home.md"},
+    {"source": "candidates/common/rules.md", "path": "90. Settings/01 Guideline/00 Common Rules.md"},
+    {"source": "candidates/personal/placement.md", "path": "90. Settings/01 Guideline/01 Role Placement.md"},
+    {"source": "candidates/common/Native Usage.md", "path": "90. Settings/01 Guideline/02 Native Usage.md"},
+    {"source": "candidates/common/source.template.md", "path": "90. Settings/02 Templates/manual/source.template.md"},
+    {"source": "candidates/fixtures/preservation.json", "path": "90. Settings/04 Index/onboard-expectations.json"}
+  ]
+}

@@ -10,6 +10,7 @@
 .omc/
 .oms/
 node_modules/
+__pycache__/
 
 # Ship the vendored Agent Skills, but no local agent state.
 # The directories are un-excluded first: git never descends into an excluded
